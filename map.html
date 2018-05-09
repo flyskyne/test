@@ -1,0 +1,18 @@
+<script type="text/javascript" src="https://api-maps.cloud.toast.com/maps/js/v2.0/map.js"></script>
+<script>
+	Map.authentification("7f5PBlHYN05LwfGV");
+</script>
+<div id="div_map"></div>
+<script type="text/javascript">
+	var map = new thinkware.maps.Map("div_map", { 
+		center: {
+			twX: 165406, 
+			twY: 500198 
+		}, 
+		level: 12, 
+		type: "i", 
+		callback: success = function() {
+			console.log("success");
+		}
+	});
+</script>
